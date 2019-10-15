@@ -5,6 +5,9 @@ const token = 'NjMzNTUyODcxNzk4ODY1OTQ3.XaVotQ.VJWKgZU2kp7ICcPB3I_Fm-4MOzc';
 
 const PREFIX = '$';
 
+bot.on('ready', () => {
+    console.log("this Bot is online !");
+})
 
 bot.on('message', msg =>{
     let x = msg.content;
